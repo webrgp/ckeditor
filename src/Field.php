@@ -1003,6 +1003,7 @@ JS,
             ]),
             'data' => [
                 'element-id' => $element?->id,
+                'editor-config' => $ckeConfig?->name
             ],
         ]);
     }
